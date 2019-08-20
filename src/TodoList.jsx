@@ -19,11 +19,11 @@ const TodoList = () => {
     }
   };
 
-  const btnToDelete = index => {
-    const newList = [...list];
-    newList.splice(index, 1);
-    setList(newList);
-  };
+  // const btnToDelete = index => {
+  //   const newList = [...list];
+  //   newList.splice(index, 1);
+  //   setList(newList);
+  // };
 
   return (
     <div className="todo">
